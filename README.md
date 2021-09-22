@@ -2,30 +2,31 @@
 
 This is a practical application test. It’s a mini version of a scenario you’ll face on the job.
 We ask that you spend no more than 2-4 hours on the test. It doesn’t have to happen all at once. We understand this is an interview exercise and people have other commitments.
+
 We also give you free reign to use whatever code libraries you'd like, but coded in python.
+
 You’ll have a week to complete a technical exercise and submit the code repository link back to us
 
 ## What do we expect?
-Code that is clean, readable, performant, and maintainable
-Coding standards
-Coding best practices
-Comments
-Documentation
-Logs
-Exceptions treatment
-Automated tests
+* Code that is clean, readable, performant, and maintainable 
+* Coding standards 
+* Coding best practices 
+* Comments 
+* Documentation 
+* Logs 
+* Exceptions treatment 
+* Automated tests
 
 
 ## What can we learn about the candidate?
-Can the candidate write code as per the company’s levels and standards?
-How do they approach a problem?
-What do they do when they get a little stuck?
-Can they brute force their way through this?
-Are they going to be “done” as soon as it’s running, or are they going to clean up any inefficiencies once it’s working?
-Or do they hammer through a bunch of approaches and see what sticks?
-Do they leave good documentation and comments on their code?
-Do they write a clear and concise readme
-There aren’t really right or wrong answers to a lot of this. It’s just really helpful and interesting to us to see how candidates work.
+* Can the candidate write code as per the company’s levels and standards? 
+* How do they approach a problem? 
+* What do they do when they get a little stuck? 
+* Can they brute force their way through this? 
+* Are they going to be “done” as soon as it’s running, or are they going to clean up any inefficiencies once it’s working? 
+* Do they leave good documentation and comments on their code? 
+* Do they write a clear and concise readme 
+* There aren’t really right or wrong answers to a lot of this. It’s just really helpful and interesting to us to see how candidates work.
 
 ## Problem
 
@@ -59,7 +60,9 @@ There aren’t really right or wrong answers to a lot of this. It’s just reall
 
 ### Requirements:
 Each day/folder contains a folder for each hour, and each hour/folder contains 5 images (one for every second).
-Each image filename contem a UTC timestamp in it.
+
+Each image filename contem a UTC timestamp in it. 
+
 The camera works on UTC but the farm works on local timezone dates. You need to read the date range contained in these files and return a dict that aggregates the files by their respective timezone-aware date.
 
 ### What do you need to do:
@@ -129,5 +132,5 @@ Example:
 
 **IMPORTANT**: Such that Each local date maps to corresponding set of image filepaths. 
 
-5.4) You should consider that there may be more than one camera, like, camera-1, camera-2 etc folder.
+6) You should consider that there may be more than one camera, like, camera-1, camera-2 etc folder.
 
