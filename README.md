@@ -33,7 +33,7 @@ You’ll have a week to complete a technical exercise and submit the code reposi
 ### Given the folder structure of image frames captured by a camera:
 ```
 /node
-	/images
+    /images
 		/frames
 			/farm-xxx
 				/camera-1
@@ -82,7 +82,9 @@ Create a class that receives {path} at the initialization
 [
    {
       "date_tz" str: "2020-10-31",
-      "files" list: [Path]
+      "files" list: [
+        "absolute_file_path"
+      ]
    },
 ]
 ```
