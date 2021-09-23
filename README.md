@@ -5,7 +5,9 @@ We ask that you spend no more than 2-4 hours on the test. It doesn’t have to h
 
 We also give you free reign to use whatever code libraries you'd like, but coded in python.
 
-You’ll have a week to complete a technical exercise and submit the code repository link back to us
+You’ll have a week to complete a technical exercise and submit the code repository link back to us.
+
+If you run out of time you can write a summary of what else you would have done to complete the test or any other suggestion for improvement.
 
 ## What do we expect?
 * Code that is clean, readable, performant, and maintainable 
@@ -59,9 +61,9 @@ You’ll have a week to complete a technical exercise and submit the code reposi
 ```
 
 ### Requirements:
-Each day/folder contains a folder for each hour, and each hour/folder contains 5 images (one for every second).
+Each day/folder contains a folder for each hour, and each hour/folder contains 5 images (one for every minute).
 
-Each image filename contem a UTC timestamp in it. 
+Each image filename contains a UTC timestamp in it. 
 
 The camera works on UTC but the farm works on local timezone dates. You need to read the date range contained in these files and return a dict that aggregates the files by their respective timezone-aware date.
 
