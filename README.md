@@ -70,11 +70,9 @@ The camera works on UTC but the farm works on local timezone dates. You need to 
 ### What do you need to do:
 Create a class that receives {path} at the initialization
 1) {path} str = Absolute folder_path
-2) Read the folder structure
-3) Create a method that extracts farm-name and camera-x(s) name from the folders path. You should consider that there may be more than one camera, like, camera-1, camera-2 etc folder.
-4) Create a method that returns the date range available on the {path}
+2Create a method that returns the date range available on the {path}
     Return format:  f”date range: {start_date} - {end_date}”
-5) Create a method that receives {timezone_tz} as parameter and:
+2) Create a method that receives {timezone_tz} as parameter and:
    1) It gets all files in {path}/images/frames/farm-name/camera-x/images/{date}/{hour}/**image_files_per_minute**.png 
       1) The filename contain a UTC timestamp in it, following this pattern: farm-name_barn-3_camera-1_2020-11-01T00h00m00s+0000.png 
    2) Extract the UTC timestamp from the file name and convert it to timezone-aware, using {timezone_tz} 
@@ -134,7 +132,7 @@ Example:
 ]
 ```
 
-**IMPORTANT**: Such that Each local date maps to corresponding set of image filepaths. 
-
-6) You should consider that there may be more than one camera, like, camera-1, camera-2 etc folder.
+**IMPORTANT**: 
+* Such that Each local date maps to corresponding set of image filepaths. 
+* You should consider that there may be more than one camera, like, camera-1, camera-2 etc folder.
 
